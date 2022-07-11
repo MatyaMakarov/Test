@@ -22,7 +22,7 @@ int FindCollisions(Hash &hasher, std::istream &text) {
         const auto&[hash, collisions_n] = p;
         collisions += collisions_n.size() - 1;
     });
-    return collisions;//хуйня 
+    return collisions;
 }
 
 struct DummyHash {
